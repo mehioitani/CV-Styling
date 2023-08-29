@@ -1,0 +1,284 @@
+    /* body {
+        background: red;
+    } */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(166, 166, 166);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+header hgroup {
+    color: red;
+    margin: 0px 150px;  
+}
+
+header img {
+    position: absolute;
+    left: 430px;
+    top: 15px;
+
+}
+
+#contact {
+    position: absolute;
+    top: 0;
+    left: 1000px;
+    display: inline-block;
+    height: 130px;
+}
+
+#contact h3 {
+    display: none;
+}
+
+.contacts dt {
+float: left;
+margin-right: 23px;
+width: 82px;
+padding-bottom: 7px;
+}
+
+.contacts dd {
+    float: right;
+    margin-left: 10px;
+    width: 100px;
+    text-align: left;
+}
+
+#contact{
+    background-color: red;
+    margin-top: 15px;
+    color: white;
+}
+
+.contact-value {
+    background-color: black;
+    padding-right: 619px;
+    text-align: center;
+    color: black;
+    height: 26px;
+}
+
+.contact-value a{
+color: red;
+text-decoration: none;
+}
+
+.contact-type {
+    padding-right: 0px;
+}
+
+.content {
+    margin-top:100px;
+}
+
+.content #about {
+    float: left;
+    margin-left: 120px;
+    margin-right: 20px;
+    width: 30%;
+    display: block;
+    text-align: left;
+    height: 200px;
+    font-size: 18px;  
+    margin-bottom: 200px;  
+}
+
+.skills-primary::before{
+    content: "Main";
+    display: inline-block;
+    font-size: 16px;
+
+}
+.skills-secondary::before{
+    content: "Other";
+    display: inline-block;
+    font-size: 16px;
+
+}
+ h3::before{
+    content: "";
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: red;
+    margin-right: 10px;
+}
+
+.content #competencies{
+    float: right;
+    margin-right: 220px;
+    width: 30%;
+    height: 200px;
+    margin-bottom: 200px;
+}
+
+.skills-primary {
+    width: 100%;
+}
+
+.skills-primary .skill {
+    background-color: rgb(213, 213, 213);
+    padding: 13px 3px;
+    margin-bottom: 5px;
+}
+
+.skills-primary .skill span {
+    background-color: red;
+    color: white;
+    margin-left: 3px;
+    padding: 10px 5px;
+    font-size: 20px;
+    
+}
+
+
+div.skill[data-skill="5"] > span {
+    padding-right: 90%;
+}
+  
+div.skill[data-skill="3"] > span {
+    padding-right: 20%;
+}
+
+div.skill[data-skill="1"] > span {
+    padding-right: 1%;
+}
+
+
+.skills-secondary {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.skills-secondary .skill {
+    background-color: rgb(213, 213, 213);
+    padding: 13px 3px;
+    margin-bottom: 5px;
+
+}
+
+.skills-secondary .skill span {
+    background-color: red;
+    color: white;
+    margin-left: 3px;
+    padding: 10px 5px;
+    font-size: 20px;
+
+}
+
+div.skill[data-skill="9"] > span {
+    padding-right: 80%;
+}
+  
+div.skill[data-skill="5"] > span {
+    padding-right: 40%;
+}
+
+div.skill[data-skill="7"] > span {
+    padding-right: 60%;
+}
+
+#experiences {
+    float: left;
+    width: 30%;
+    margin-left: 120px;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-top: 70px;
+}
+
+#education {
+    float: right;
+    width: 30%;
+    margin-right: 220px;
+    font-size: 18px;
+    margin-top: 70px;
+}
+
+  #about h3 {
+    border-bottom:1px solid gray;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  #competencies h3 {
+    border-bottom:1px solid gray;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  #experiences h3 {
+    border-bottom:1px solid gray;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  #education h3 {
+    border-bottom:1px solid gray;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+.experience h4{
+    margin: 10px 0px 0px 0px;
+}
+
+  .experience .experience-type {
+    color: red;
+  }
+
+  .experience .experience-institution {
+    color: red;
+    font-weight: 300;
+  }
+
+  .experience-details {
+    color: rgb(147, 145, 145);
+    margin:0px 0px 10px 15px;
+  }
+
+  .experience-description {
+    margin-bottom: 50px;
+  }
+
+  #hobbies h3 {
+    width: 30%;
+    border-bottom:1px solid gray;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-left: 120px;
+  }
+
+  #hobbies ul {
+    margin-left: 150px;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .experience-institution::before{
+    content: "@";
+  }
+
+  .experience-location::before {
+    content: "In"
+  }
+
