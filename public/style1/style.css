@@ -21,7 +21,7 @@ header hgroup {
 header img {
     position: absolute;
     left: 430px;
-    top: 15px;
+    top: 25px;
 
 }
 
@@ -202,6 +202,7 @@ div.skill[data-skill="7"] > span {
     margin-right: 220px;
     font-size: 18px;
     margin-top: 70px;
+    padding-top: 12px;
 }
 
   #about h3 {
@@ -282,3 +283,8 @@ div.skill[data-skill="7"] > span {
     content: "In"
   }
 
+figure img {
+    width: 100px;
+    height: 100px;
+}
+  
