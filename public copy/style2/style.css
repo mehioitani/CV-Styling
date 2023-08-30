@@ -2,11 +2,11 @@
     padding: 0;
     margin: 0;
     width:80%;
-    background-color: gray;
 }
 
 body{
     padding: 50px 100px;
+    font-size: 20px;
 }
 hgroup h2 {
     display: none;
@@ -42,88 +42,126 @@ figure img {
 }
 
 #competencies {
-    margin-left: 50px;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: row;
-    /* justify-content:baseline; */
-    /* position: absolute; */
-    /* left: 100px; */
-    /* border-left: 1px solid gray; */
-
+float: left;
+margin-left: 48px;
+margin-top: 20px;
 }
 
-#competencies h3 {
-    /* border-right: 1px solid gray; */
-/* padding-top: 20px; */
-padding-right: 0px;
-margin-right: -300px;
-margin-left: 0px;
-}
 
 .skills-primary {
-    display: flex;
-    flex-direction: row;
-    justify-content:baseline;
+    float: right;
+    
 }
 
+.skill{
+    margin:4px;
+    float:left;
+    padding:10px;
+    background:teal;
+    color:white;
+    width: 130px;
+  }
+
 .skills-secondary{
-    display: flex;
-    flex-direction: row;
-    justify-content:baseline;
-    align-items: center;
-}
+ position: relative;
+ left: 120px;
+} 
 
 .skill[data-skill="5"] span::after{
     content: "\2605 \2605 \2605";
-    display: inline-block;
     color: white;
-    width: auto;
-    height: auto;
 
 }
 .skill[data-skill="3"] span::after{
     content: "\2605 \2605";
-    display: inline-block;
     color: white;
     width: auto;
     height: auto;
-
 }
 .skill[data-skill="1"] span::after{
     content: "\2605";
-    display: inline-block;
     color: white;
-    width: auto;
-    height: auto;
 
 }
 
 .skill[data-skill="7"] span::after,.skill[data-skill="9"] span::after{
     content: "\2605 \2605 \2605 \2605 \2605";
-    display: inline-block;
-    color: white;
-    width: auto;
-    height: auto;
-}
+    color: white;}
 
-#experiences {
-position: absolute;
-}
 
-.experience {
-position: absolute;
-}
+    #experiences {
+        float: left;
+        margin-left: 40px;
+        margin-top: 20px;
+        padding: 10px;
+        }
 
-.experience .experience-details {
-position: absolute;
-}
+        .experience {
+            float: right;
+            padding: 10px;
+            width: 1000px;
+            margin-left: 1100px;
+            /* padding-left: 500px; */
+            display: flex;
+            flex-direction: row;
+    
+        }
 
-.experience .experience-description{
+        .experience-institution{
+            display: none;
+        } 
 
-}
+        .experience-details {
+            display: none;
+        }
 
-#experiences .experience:nth-child(2) {
-position:absolute;
+        .experience-type {
+            line-height: 1.8em;
+            color: teal;
+        }
 
-}
+        #education {
+            margin-left: 50px;
+            margin-top: 100px;
+        }
+
+        #hobbies {
+            margin-left: 48px;
+            margin-top: 100px;
+        }
+        
+        #hobbies ul {
+            margin-left: 150px;
+        }
+     
+        #contact h3, #contact dt,.contact-skype{
+            display: none;
+        }
+
+        #contact{
+            text-align: center;
+            width: 200px;
+            float: right;
+            display: flex;
+            flex-direction: row;
+            justify-content: baseline;
+        }
+        .contacts{
+            float: left;
+        }
+        .contact-email a{
+            content: url(../images/email.png);
+            float: right;
+        }
+        .contact-phone a{
+            content: url(../images/phone.png);
+           
+        }
+        .contact-github a{
+            content: url(../images/github.png);
+           
+        }
+        .contact-facebook a{
+            content: url(../images/facebook.png);
+          
+        }
